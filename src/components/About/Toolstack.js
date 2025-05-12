@@ -1,30 +1,40 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import {
-  SiVisualstudiocode,
-  SiPostman,
-  SiSlack,
-  SiVercel,
-  SiMacos,
-} from "react-icons/si";
 
 function Toolstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiMacos />
+      <Col xs={12} md={3} className="tech-icons">
+        <span role="img" aria-label="mendeley">📕</span>
+        <div>Mendeley</div>
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiVisualstudiocode />
+      <Col xs={12} md={3} className="tech-icons">
+        <span role="img" aria-label="zotero">📗</span>
+        <div>Zotero</div>
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiPostman />
+      <Col xs={12} md={3} className="tech-icons">
+        <span role="img" aria-label="grammarly">📝</span>
+        <div>Grammarly</div>
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiSlack />
+      <Col xs={12} md={3} className="tech-icons">
+        <span role="img" aria-label="turnitin">🔍</span>
+        <div>Turnitin</div>
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiVercel />
+      <Col xs={12} md={3} className="tech-icons">
+        <span role="img" aria-label="endnote">📒</span>
+        <div>EndNote</div>
+      </Col>
+      <Col xs={12} md={3} className="tech-icons">
+        <span role="img" aria-label="scholar">🔎</span>
+        <div>Google Scholar</div>
+      </Col>
+      <Col xs={12} md={3} className="tech-icons">
+        <span role="img" aria-label="word">🖥️</span>
+        <div>Microsoft Word</div>
+      </Col>
+      <Col xs={12} md={3} className="tech-icons">
+        <span role="img" aria-label="ppt">📽️</span>
+        <div>PowerPoint</div>
       </Col>
     </Row>
   );
